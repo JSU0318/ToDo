@@ -51,7 +51,7 @@ const App = () => {
       />
       <input
         value={age}
-        placeholder="나이를 입력해주세요"
+        placeholder="나이를 입력"
         // 인풋 이벤트로 들어온 입력 값을 age의 값으로 업데이트
         onChange={(e) => setAge(e.target.value)}
       />
