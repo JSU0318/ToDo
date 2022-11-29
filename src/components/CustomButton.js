@@ -3,7 +3,15 @@ function CustomButton(props) {
   if (color) {
     return (
       <button
-        style={{ backgroundColor: color, color: "white" }}
+        style={{
+          backgroundColor: color,
+          height: "40px",
+          width: "140px",
+          color: "white",
+          borderRadius: "10px",
+          border: "0px solid white",
+          cursor: "pointer",
+        }}
         onClick={onClick}
       >
         {children}
