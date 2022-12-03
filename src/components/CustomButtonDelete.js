@@ -12,7 +12,7 @@ function CustomButtonDelete(props) {
           border: "2px solid red",
           cursor: "pointer",
           gap: gap,
-        }}
+        }} 
         onClick={onClick}
       >
         {children}

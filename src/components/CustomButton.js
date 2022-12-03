@@ -20,5 +20,5 @@ function CustomButton(props) {
   }
   return <button onClick={onclick}>{children}</button>;
 }
-
+//수정본
 export default CustomButton;
